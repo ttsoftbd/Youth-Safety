@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#48ad74"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Safe_InternetFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="100"
+                android:layout_margin="10dp"
+                >
+
+
+
+                <ImageView
+                    android:id="@+id/e1"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ni1"
+                    />
+
+                <TextView
+                    android:id="@+id/te1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="ইন্টারনেট হচ্ছে ইন্টারকানেক্টেড নেট্ওয়ার্ক(interconnected network) এর সংক্ষিপ্ত রূপ। এটা বিশেষ গেটওয়ে বা রাউটারের মাধ্যমে কম্পিউটার নেটওয়ার্কগুলো একে-অপরের সাথে সংযোগ করার মাধ্যমে গঠিত হয়। ইন্টারনেটকে প্রায়ই নেট বলা হয়ে থাকে।"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/e2"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ni2"
+                    />
+
+                <TextView
+                    android:id="@+id/te2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="মৌলিক টিপস সমূহ নিচে দেয়া হলো"
+                    />
+
+                <ImageView
+                    android:id="@+id/e3"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ni3"
+                    />
+
+                <TextView
+                    android:id="@+id/te3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="১।  নিরাপত্তা সফটওয়্যার: আপডেটেড নিরাপত্তা সফটওয়্যার (এন্টি ভাইরাস), ওয়েব ব্রাউজার ও অপারেটিং সিস্টেম ব্যবহার করুন। এগুলো ভাইরাস, ম্যালওয়্যার এবং অন্যান্য অনলাইন হুমকিগুলির বিরুদ্ধে আপনাকে সুরক্ষা দেবে।\n\n
+
+২।  স্বয়ংক্রিয় সফটওয়্যার আপডেট: পরিচিত ঝুঁকি থেকে রক্ষা পেতে কম্পিউটারের বিভিন্ন সফটওয়্যার নিজ থেকে ইন্টারনেটে যুক্ত হয়ে সংশ্লিষ্ট সার্ভার থেকে হালনাগাদ হয়। এজন্য আপনার সফটওয়্যারগুলোর ‘অটো আপডেট’ অপশন চালু রাখুন।\n\n
+
+৩।  ইন্টারনেটের সঙ্গে সংযুক্ত সব ডিভাইস সুরক্ষিত করুন: কম্পিউটার, স্মার্টফোন, গেমিং সিস্টেম এবং ইন্টারনেটের সঙ্গে যুক্ত অন্যান্য ডিভাইসগুলোরও ভাইরাস থেকে সুরক্ষার প্রয়োজন।\n\n
+
+৪। প্ল্যাগ ও স্ক্যান: ইউএসবি প্ল্যাগ এবং অন্যান্য বহিরাগত ডিভাইসের মাধ্যমে আপনার কম্পিউটার ভাইরাস আক্রান্ত হতে পারে। সেগুলো স্ক্যান করার জন্য নিরাপত্তা সফটওয়্যার ব্যবহার করুন।"
+                    />
+                <ImageView
+                    android:id="@+id/e4"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ni4"
+                    />
+
+                <TextView
+                    android:id="@+id/te4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="৫।  অ্যাকাউন্টের নিরাপত্তা: আপনার অনলাইন অ্যাকাউন্ট হ্যাকিং থেকে রক্ষায় শক্তিশালী নিরাপত্তা ব্যবস্থা নিন। যেমন: বায়েমেট্রিক, মোবাইলের মাধ্যমে সিকিউরিটি কী হিসেবে ওয়ানটাইম কোড, ইত্যাদি।  মনে রাখবেন- আপনার ইমেইল অ্যাকাউন্ট, ব্যাংক ও সামাজিক মাধ্যমের মতো গুরুত্বপূর্ণ অ্যাকাউন্টগুলোর নিরাপত্তায় শুধু ইউজারনেম ও পাসওয়ার্ডই যথেষ্ট নয়।\n\n
+
+৬।  বাক্য দিয়ে পাসওয়ার্ড তৈরি করুন: একটি শক্তিশালী পাসওয়ার্ড হলো কমপক্ষে ১২ অক্ষরের একটি বাক্য। আপনার মনে রাখতে সহজ হয়, এমন ইতিবাচক বাক্য বা বাক্যাংশ পাসওয়ার্ড হিসেবে ব্যবহার করতে পারেন।  পাসওয়ার্ড শক্তিশালী করতে স্পেস, সাংকেতিক চিহ্ন, সংখ্যা, বড়হাতের-ছোটহাতের অক্ষর ব্যবহার করতে পারেন।\n\n
+
+৭। ভিন্ন অ্যাকাউন্ট ভিন্ন পাসওয়ার্ড: সব অ্যাকাউন্টে একই পাসওয়ার্ড ব্যবহার না করে প্রত্যেকের জন্য আলাদা পাসওয়ার্ড ব্যবহার করুন। এটি সাইবার অপরাধীদের পাসওয়ার্ড চুরি ঠেকাতে সাহায্য করে।\n\n
+
+৮। নিরাপদ স্থানে পাসওয়ার্ড লিখে রাখুন: প্রত্যেক অ্যাকাউন্টের আলাদা পাসওয়ার্ড ব্যবহার করা হলে তা সাইবার অপরাধীদের চেষ্টা ব্যর্থ করতে সাহায্য করে।  অন্ততপক্ষে আপনার অফিস এবং ব্যক্তিগত অ্যকাউন্টগুলোর পাসওয়ার্ড আলাদা করুন। অত্যন্ত গুরুত্বপূর্ণ অ্যাকাউন্টগুলোর জন্য খুব শক্তিশালী পাসওয়ার্ড নিশ্চিত করুন।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e5"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ni5"
+                    />
+
+
+                <TextView
+                    android:id="@+id/te5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="৯। সন্দেহ হলেই বাদ দিন: ইমেইলে পাঠানো ওয়েবলিঙ্ক, সোশ্যাল মিডিয়ার পোস্ট এবং অনলাইন বিজ্ঞাপনগুলোর মাধ্যমে প্রায়ই সাইবার অপরাধীরা আপনার ব্যক্তিগত তথ্য চুরির চেষ্টা করে। ইন্টারনেট ব্যবহারের সময় এসবের কোনো কিছুতে আপনার সন্দেহ হলে ক্লিক না করে মুছে দিন।\n\n
+
+১০। ওয়াইফাই হটস্পট: আপনার প্রতিষ্ঠানের ধরন অনুযায়ী ওয়াইফাই হটস্পটের সিকিউরিটি সেটিংস করুন। শুধু প্রতিষ্ঠানের যে কয়জন ব্যবহারকারী আছে সে অনুযায়ী ব্যবহারকারীর সংখ্যা সীমাবদ্ধ রাখুন।\n\n
+
+১১।  অর্থ সুরক্ষিত করুন: যখন অনলাইনে কেনাকাটা ও ব্যাংকিং কার্যক্রম করবেন তখন ওই ওয়েবসাইটের নিরাপত্তা সম্পর্কে নিশ্চিত হোন। দেখুন ওয়েবসাইটটির অ্যাড্রেসবারে https:// অথবা “shttp:// দেখাচ্ছে কি না। এটি দেখানোর মানে হলো ওয়েবসাইটে আপনার তথ্য সুরক্ষার জন্য নিরাপত্তাব্যবস্থা নেয়া আছে।  “http://” থাকলে বুঝবেন সেটি নিরাপদ নয়।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e6"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ni6"
+                    />
+
+
+                <TextView
+                    android:id="@+id/te6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="১২।  সময়ের সঙ্গে থাকুন: ইন্টারনেটে নিরাপদ থাকার উপায়গুলোর সঙ্গে পরিচিত হোন; সর্বশেষ তথ্য জানতে এবং বন্ধু, পরিবার ও সহকর্মীদের সঙ্গে শেয়ার করতে বিশ্বস্ত ওয়েবসাইটগুলো দেখুন; সবাইকে ইন্টারনেট ব্যবহারে সচেতন হতে উৎসাহিত করুন।\n\n
+
+১৩। তথ্য দেয়ার আগে ভাবুন: ইন্টারনেটে তাৎক্ষণিক কোনো কিছু করতে আপনাকে অনুরোধ করা হলে, বড় কোনো সুযোগ গ্রহণের আমন্ত্রণ জানালে এবং এসব ব্যাপারে আপনার ব্যক্তিগত তথ্য চাওয়া হলে সেক্ষেত্রে সতর্ক থাকুন।\n\n
+
+১৪।  তথ্য সংরক্ষণে সতর্ক হোন:  আপনার মূল্যবান কোনো কাজ, গান, ছবি এবং অন্যান্য ডিজিটাল তথ্যের কপি সংরক্ষণ করার সময় তা নিরাপত্তার সঙ্গে করুন।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e7"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ni7"
+                    />
+
+                <TextView
+                    android:id="@+id/te7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="১৫। আমার জন্য নিরাপদ, সবার জন্য বেশি নিরাপদ: ঘর, কর্মক্ষেত্র এবং বিশ্বব্যাপী আপনি অনলাইনে যাই করুন তা অন্যের ওপর কোনো না কোনোভাবে প্রভাব ফেলছে। সুতরাং ভার্চুয়াল জগতের নাগরিকদের উপকৃত করতে ভাল কাজের চর্চা করুন।\n\n
+
+১৬। অন্যের সম্পর্কে অনলাইনে এমন  কিছু পোস্ট করুন যেমনটি অন্যরা আপনার সম্পর্কে করছে: যথাসম্ভব অনলাইনে ভাল কিছু করুন।\n\n
+
+১৭।  সাইবার অপরাধ দমনে সংশ্লিষ্ট কর্তৃপক্ষকে সহযোগিতা করুন: সাইবার অপরাধ তদন্তে প্রশাসন তৎপর হয়েছে। আপনার আশপাশে সাইবার অপরাধ সংগঠিত হলে নিকটস্থ থানা, র‌্যাব, পুলিশের সাইবার অপরাধ তদন্ত সংক্রান্ত শাখায় সংশ্লিষ্ট কর্মকর্তাদের জানান।"
+                    />
+
+                <ImageView
+                    android:id="@+id/e8"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ni8"
+                    />
+
+                <TextView
+                    android:id="@+id/te8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="১৮। ব্যক্তিগত তথ্য আপনার সম্পদ, এটির সুরক্ষা নিশ্চিত করুন: আপনার সম্পর্কিত তথ্য, যেমন: কেনাকাটার বৃত্তান্ত, অবস্থান এগুলো খুব মূল্যবান। এগুলো আপনার অর্থের মতো। কে কিভাবে এসব তথ্য ওয়েবসাইট ও অ্যাপসের মাধ্যমে সংগ্রহ করছে সে ব্যাপারে ভাবুন।\n\n
+
+১৯। তথ্য শেয়ার করার ব্যাপারে সচেতনতা: তথ্য শেয়ারের ব্যাপারে ওয়েবসাইট এবং আপনার ডিজিটাল ডিভাইসের প্রাইভেসি সেটিংসগুলো ভালভাবে সেট করুন। কার সঙ্গে কোন তথ্য আপনি শেয়ার করছেন তার জন্য প্রাইভেসি সেটিংস যথেষ্ট।\n\n
+
+২০।  তথ্য শেয়ারে যত্নবান হোন: নিজের এবং অন্যের সম্পর্কে অনলাইনে কোনো তথ্য শেয়ারের আগে একটু ভাবুন। আপনার শেয়ার করা তথ্যটি দেখে অন্যদের মধ্যে কী প্রতিক্রিয়া হবে তা বিবেচনা করুন।"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

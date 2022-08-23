@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "785133833557",
+    "project_id": "youth-safety",
+    "storage_bucket": "youth-safety.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785133833557:android:c0d9e074895621f7b5b3dc",
+        "android_client_info": {
+          "package_name": "com.tutorialspoint.myapplicationd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785133833557-4qkvpv35va2rm4a1pji9imnkadod7fjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYWnPQwZ1lTKcdyVNnDJ9I_JbsJdrsmoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785133833557-4qkvpv35va2rm4a1pji9imnkadod7fjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

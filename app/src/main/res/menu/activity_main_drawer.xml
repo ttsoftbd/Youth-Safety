@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="হোম" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/cyber"
+            android:title="সাইবার বুলিং" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/hack"
+            android:title="হ্যাকিং" />
+
+        <item
+            android:id="@+id/nav_eve_teasing"
+            android:icon="@drawable/domestic"
+            android:title="ইভ টিজিং" />
+
+        <item
+            android:id="@+id/nav_Early_marrige"
+            android:icon="@drawable/marrige"
+            android:title="বাল্য বিবাহ" />
+
+        <item
+            android:id="@+id/nav_domestic_violence"
+            android:icon="@drawable/crime"
+            android:title="ডমেস্টিক ভায়োলেন্স" />
+
+
+    </group>
+
+    <item android:title="হেল্প এন্ড লার্নিং সেন্টার">
+    <menu>
+        <item
+            android:id="@+id/nav_depression"
+            android:icon="@drawable/dipression"
+            android:title="ডিপ্রেশন" />
+
+        <item
+            android:id="@+id/nav_safe_internet"
+            android:icon="@drawable/internet"
+            android:title="সেইফ ইন্টারনেট" />
+
+    </menu>
+
+    </item>
+
+
+
+</menu>

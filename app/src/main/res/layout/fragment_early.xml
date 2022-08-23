@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48ad74"
+    tools:context=".ui.EarlyFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="100"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/b1"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bal1"
+                    />
+
+
+                <TextView
+                    android:id="@+id/tb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="এমন একটি সামাজিক কুফল যা দুটি অল্পবয়সী ছেলে ও মেয়ের সোনালী ভবিষ্যৎ নষ্ট করে। একটি মানসিকভাবে অপরিণত ছেলে এবং একটি মেয়ে শিশু বিয়ের মতো গুরুত্বপূর্ণ বন্ধনে আবদ্ধ হয়। তাদের অপরিপক্কতায় স্বামী, পিতা ও মাতা স্ত্রী হিসাবে তাদের দায়িত্ব পালন করা উভয়ের পক্ষেই কঠিন হয়ে পড়ে।
+
+অল্প বয়সে মেয়ের বিয়ে সম্পন্ন হলে সে বাল্যবধূ হয়। সে বিভিন্ন রোগ ও মানসিক চাপের শিকার হয়। অল্প বয়সে ছেলের বিয়ে হলে সে অল্প বয়সেই আর্থিক ও পারিবারিক দায়িত্বে চাপা পড়ে যায়।"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/b2"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bal2"
+                    />
+
+                <TextView
+                    android:id="@+id/tb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="মধ্যযুগ থেকেই আমাদের সমাজে এই কুপ্রথা প্রচলিত রয়েছে। যখন বিদেশী বিধর্মী ইয়াবন তুর্ক আকরানতাও তার লালসা চরিতার্থ করার জন্য মেয়েটিকে অপহরণ করে জোরপূর্বক মেয়ের সাথে সম্পর্ক স্থাপনের কৌতুক করেছিল।
+
+এ কারণে ভারতীয় হিন্দু সমাজে অশিক্ষিত ও অক্ষম ব্যক্তিরা শৈশব থেকেই তাদের মেয়েকে বিয়ে করা উপযুক্ত মনে করতেন। যৌতুক প্রথার কারণে বাল্যবিবাহের প্রচলনও দ্রুত বৃদ্ধি পায়। সে সময় যে কোনো ঘরে কন্যা সন্তানের জন্ম অশুভ মনে করা হতো।
+
+সম্পূর্ণ অজ্ঞতার কারণে ছেলে-মেয়ে বাল্যবিবাহের প্রথা প্রতিহত করতে পারেনি। অন্যদিকে মেয়েকে অল্প বয়সে বিয়ে দিয়ে বাবা-মাকেও যৌতুক দেওয়া থেকে মুক্তি দেওয়া হয়। এই ধরনের চিন্তাভাবনার কারণে মধ্যবিত্ত ও নিম্নবিত্ত পরিবারে বাল্যবিবাহের প্রচলন দ্রুত বৃদ্ধি পায়।"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/b3"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bal3"
+                    />
+
+                <TextView
+                    android:id="@+id/tb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="বিবাহ অনুষ্ঠানে কন্যাদান একটি পবিত্র ও শুভ কাজ বলে মনে করা হয়। এ উপলক্ষে মেয়েটির বাবা-মা তাদের মর্যাদা অনুযায়ী তাদের মেয়েকে উপহার হিসেবে কিছু জিনিসপত্র ও টাকা দেন। এই যৌতুক প্রথা ধীরে ধীরে বিকৃত অবস্থায় চলে যায়। এর ফল হল যে পরিবারে কন্যা সন্তান জন্ম দেওয়াকেও বোঝা মনে করা হত।\n
+
+যারা নিজের মেয়েকে বিদেশী সম্পদ মনে করে, তাদের শৈশবে বিয়ে দিয়ে দায়িত্ব পালন করে। কিন্তু এই ভুল প্রথা যুগে যুগে সমাজে অনেক বড় সমস্যার জন্ম দিয়েছে। অল্প বয়সে ছেলে-মেয়েদের বিয়ের কারণে তারা শীঘ্রই বংশবৃদ্ধির কাজ শুরু করে। যার কারণে অনিয়ন্ত্রিত জনসংখ্যাকে উৎসাহিত করার পাশাপাশি মধ্যবিত্ত ও নিম্নবিত্তদের জীবনযাত্রার মানও কমে যাচ্ছে।"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/b4"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bal4"
+                    />
+                <TextView
+                    android:id="@+id/tb4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="বাল্যবিবাহের এই প্রথার কুফল ও কুফল দেখে যুগে যুগে সমাজ সংস্কারকরা এই প্রথাকে মূল থেকে নির্মূল করার লক্ষ্যে অনেক গুরুত্বপূর্ণ কাজ করেছেন। ভারত সরকারও বাল্যবিবাহকে অপরাধ হিসেবে ঠেকাতে কঠোর আইন করেছে। এছাড়াও, সবার জন্য বিয়ের সর্বনিম্ন বয়স ছেলেদের জন্য 21 বছর এবং মেয়েদের জন্য 18 বছর নির্ধারণ করা হয়েছে।\n\n
+
+এই বয়সের নিচে এই বয়সের কম বয়সী ছেলেমেয়েদের বিয়ে আইনত অপরাধ।এমনটি করা শিশুদের বাবা-মা এবং অংশগ্রহণকারীদের জন্য কঠোর শাস্তির বিধানও করা হয়েছে। এত কিছুর পরও আজ সবই হচ্ছে প্রকাশ্যে। মূলত রাজস্থানে অক্ষয় তৃতীয়া (আখাতীজ) উপলক্ষে বাল্যবিবাহের বন্যা বইছে। আশ্চর্যের বিষয় হলো, এ ধরনের বাল্যবিবাহ কর্মসূচিতে আইন প্রণেতা ও তাদের কথিত রক্ষকদেরও এ ধরনের মানুষের সঙ্গে বসে থাকতে দেখা যায়।"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/b5"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bal5"
+                    />
+
+                <TextView
+                    android:id="@+id/tb5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="সন্তানের শৈশব কেড়ে নেওয়া হয় এবং অনেক সময় বিয়ের পর শিক্ষা থেকে বঞ্চিত হয়।\n\n
+কন্যা শিশুর স্বাস্থ্যের উপর অপুষ্টি- অপুষ্টি, মানসিক বিকাশ প্রতিবন্ধকতা, যৌন সমস্যা, এইচআইভি, অকাল গর্ভধারণ ইত্যাদি। ব্যক্তির সঠিক বিকাশ সম্ভব নয়।\n\n
+মাতৃমৃত্যুর হারের তুলনায় শিশুমৃত্যুর হার বেড়েছে।\n\n
+বাল্যবিবাহের কারণে ছেলেটি বড় হয়ে অনেক সময় মেয়েকে ছেড়ে চলে যায়।\n\n
+মেয়ে শিশুকে অল্প বয়সেই পারিবারিক দায়িত্ব পালন করতে হয়।\n\n
+সন্তানের ওপর আর্থিক বোঝা, ভবিষ্যৎ নিয়ে দুশ্চিন্তা"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/b6"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bal6"
+                    />
+
+                <TextView
+                    android:id="@+id/tb6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="২8 শে সেপ্টেম্বর তারিখে ১৯২৯ সালে পাস করা হয়। এই আইনে উল্লেখ আছে মেয়েদের জন্য বিয়ের বয়স ১৪ বছর এবং ছেলেরা ১৮ বছর বয়সের বাতিল করে মেয়েদের জন্য ১৮ এবং ছেলেদের জন্য ২১ বছর বয়স করা হয়েছে। এটি শরদ আইন হিসাবে খুব পরিচিত। এই আইনের পৃষ্ঠপোষক ছিলেন হার্বিলাস সারদা। উত্থাপনের ছয় মাস পরে এটি ১ এপ্রিল ১৯৩০ সালে কার্যকর হয় এবং এটি শুধু হিন্দুদের নয়, সমগ্র ব্রিটিশ ভারতের জন্য প্রযোজ্য।[১][২][৩] এটি ভারতের সামাজিক সংস্কার আন্দোলনের একটি ফল ছিল।[৪] ব্রিটিশ কর্তৃপক্ষের কাছ থেকে শক্তিশালী বিরোধী আসা সত্ত্বেও আইনটি ভারতীয় ব্রিটিশ সরকার কর্তৃক সর্বাধিক ভারতীয়দের দ্বারা গৃহীত হয়। ব্রিটিশ সরকার তাদের অনুগত হিন্দু ও মুসলিম সাম্প্রদায়িক গোষ্ঠীগুলির কাছে হেরে যাওয়ার ভয়ের কারণে এটি বাস্তবায়ন করেছিল।[৫]"
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

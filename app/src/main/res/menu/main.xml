@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/user"
+        android:orderInCategory="100"
+        android:title="User Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Terms"
+        android:orderInCategory="100"
+        android:title="Terms and Conditionds"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/Contact"
+        android:orderInCategory="100"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+</menu>

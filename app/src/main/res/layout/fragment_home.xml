@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#48ad74"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/ImageView"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dailinotice"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/Cyber"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saibarr"
+                    />
+
+                <ImageView
+                    android:id="@+id/eveteasingbtn"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:src="@drawable/ive"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/btnopen"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ballo"
+                    />
+
+                <ImageView
+                    android:id="@+id/DomesticBtn"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:src="@drawable/dome"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/HackingBtn"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hackr"
+                    />
+
+                <ImageView
+                    android:id="@+id/PlagiarismBtn"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:src="@drawable/plagi"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/helpo"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/DipretionBtn"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dipre"
+                    />
+
+                <ImageView
+                    android:id="@+id/SafeBtn"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:src="@drawable/safe"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

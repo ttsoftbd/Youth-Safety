@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48ad74"
+   android:layout_margin="10dp"
+    tools:context=".DomesticActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="100"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ab1"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/yz1"
+                    />
+                <ImageView
+                    android:id="@+id/dm2"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/double2"
+                    />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/dt2"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="স্বামী/স্ত্রী নিজেদের শারীরিক , মানসিক , মৌখিক , অর্থনৈতিক , ধর্মীয় , প্রজনমুলক , যৌন , একাধিক রুপ পরিগ্রহ , বৈবাহিক ধর্ষণ , দম বন্ধ মারধর , এসিড নিক্ষেপ , অগ্নিদঘ ইত্যাদি"
+                    />
+
+                <ImageView
+                    android:id="@+id/dm3"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/double3"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/dt3"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="সকল সুখের উৎস একটি পরিবার । কিন্তু পরিবারে যদি কেউ একে অপরের প্রতি সহিংসতা মুলক অসৌজন্য আচ্রন করে তাহলে অবশ্যই তাদের বিচারফ এর আয়তায় আনা উচিত।আর তখন আপনি আমাদের মাধ্যমে সরাসরী আবেদন করতে পারবেন।"
+                    />
+                <ImageView
+                    android:id="@+id/dm4"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/double4"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/dt4"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="১। আইনি পরামর্শ \n২। প্রাথমিক যত্নকারী \n৩। কাউন্সিলিং\n৪। যুথবুদ্ধ কর্ম পরিকল্পনা"
+                    />
+
+                <ImageView
+                    android:id="@+id/dm5"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/double5"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/dt6"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="আপনার ব্যক্তিগত তথ্য আমরা কখনই কোন থার্ড পার্টির কাছে হস্তান্তর করব না । তাই আপনি নির্ভয়ে আপনার সকল অভিযোগ জানাতে পারেন।"
+                    />
+
+                <ImageView
+                    android:id="@+id/dm7"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/double7"
+                    />
+                <ImageView
+                    android:id="@+id/dm8"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/callbtn"
+                    />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/dt7"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="৯৯৯ এ কল দিয়ে সরাসরী দ্রুত আপনার অভিযোগ জানান"
+                    />
+
+                <ImageView
+                    android:id="@+id/dm6"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/double6"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

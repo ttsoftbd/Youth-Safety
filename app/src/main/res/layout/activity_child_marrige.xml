@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48ad74"
+    tools:context=".Child_MarrigeActivity"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="100"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dam1"
+                    />
+
+                <ImageView
+                    android:id="@+id/cm2"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dam2"
+                    />
+                <TextView
+                    android:id="@+id/bt1"
+                    android:visibility="gone"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="আপনার সঠিক তথ্যের মাধ্যমে বেচে যেতে পারে তাজা দুইটি প্রান এবং আগত ভবিষ্যর প্রজন্ম । তাই বাংলাদেশ পুলিশ ও সাইবার সিকিউরিটি টিম কে সাহায্য করার জন্য জেনে বুঝে সঠিক তহ্য দিন। নাগরিক হিসেবে এ কাজ করার জন্য আপনাকে অনেক ধন্যবাদ"
+                    />
+                <ImageView
+                    android:id="@+id/cm3"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dam3"
+                    />
+                <TextView
+                    android:id="@+id/bt2"
+                    android:visibility="gone"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="অভিযোগ জানানোর আগে অবশ্যই জেনে নিবে যেন ছেলের বয়স ২১ এর নিচে এবং মেয়ের বয়স ১৮ এর নিচে হয়। তাহলেই শূধু আবেদন করতে পারবেন। "
+                    />
+                <ImageView
+                    android:id="@+id/cm4"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dam4"
+                    />
+                <TextView
+                    android:id="@+id/bt3"
+                    android:visibility="gone"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="যে ঘটক বা ছোট ছট ছেলে মেয়েদের বিয়ের জন্য কাজ করেছে তার নাম পারলে জেনে নিন । কাজির নাম ও মোবাইল নম্বর সংগ্রহ করে রাখলে ভাল। "
+                    />
+
+
+
+                <ImageView
+                    android:id="@+id/cm5"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dam5"
+                    />
+                <TextView
+                    android:id="@+id/bt4"
+                    android:visibility="gone"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="আপনার ব্যক্তিগত তথ্য আমরা কখনই কোন থার্ড পার্টির কাছে হস্তান্তর করব না । তাই আপনি নির্ভয়ে আপনার সকল অভিযোগ জানাতে পারেন।"
+                    />
+                <ImageView
+                    android:id="@+id/cm7"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/callbtn"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/cm6"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dam6"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

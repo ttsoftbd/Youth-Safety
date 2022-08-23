@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.tutorialspoint.myapplicationd.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.tutorialspoint.myapplicationd.ui.cyberbullying.GalleryFragment"
+        android:label="@string/menu_cyber"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.tutorialspoint.myapplicationd.ui.hacking.SlideshowFragment"
+        android:label="@string/menu_hacking"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_eve_teasing"
+        android:name="com.tutorialspoint.myapplicationd.ui.Cyber_Bullying_Fragment"
+        android:label="Eve Teasing"
+        tools:layout="@layout/fragment_eve_teasing" />
+
+    <fragment
+        android:id="@+id/nav_domestic_violence"
+        android:name="com.tutorialspoint.myapplicationd.ui.DomesticFragment"
+        android:label="Domestic Violence"
+        tools:layout="@layout/fragment_domestic" />
+
+    <fragment
+        android:id="@+id/nav_Early_marrige"
+        android:name="com.tutorialspoint.myapplicationd.ui.EarlyFragment"
+        android:label="Early Marriage"
+        tools:layout="@layout/fragment_early" />
+
+    <fragment
+        android:id="@+id/nav_depression"
+        android:name="com.tutorialspoint.myapplicationd.ui.DepressionFragment"
+        android:label="Depression"
+        tools:layout="@layout/fragment_depression" />
+
+    <fragment
+        android:id="@+id/nav_safe_internet"
+        android:name="com.tutorialspoint.myapplicationd.ui.Safe_InternetFragment"
+        android:label="Safe Internet"
+        tools:layout="@layout/fragment_safe__internet" />
+
+</navigation>

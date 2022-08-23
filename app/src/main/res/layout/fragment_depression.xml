@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48ad74"
+    tools:context=".ui.DepressionFragment">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="100"
+                android:layout_margin="10dp"
+                >
+
+
+
+                <ImageView
+                    android:id="@+id/p1"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp0"
+                    />
+
+                <TextView
+                    android:id="@+id/px1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="বিষণ্নতা কাউন্সেলিং প্রায়ই একটি সমন্বয় চিকিত্সা পরিকল্পনা হিসাবে সুপারিশ করা হয়। টকিং থেরাপি আপনাকে নেতিবাচক, আত্ম-পরাজিত চিন্তাগুলি সনাক্ত করতে, সম্বোধন করতে এবং পরিচালনা করতে সাহায্য করতে পারে যা আপনার বিষণ্নতার সাথে আচরণ করার পদ্ধতিকে প্রভাবিত করতে পারে।"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/p2"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp1"
+                    />
+
+                <TextView
+                    android:id="@+id/px2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="কারও কারও জন্য, তাদের সাহায্য চাওয়ার একটি বাধা হল তাদের আসলে বিষণ্নতা আছে কিনা তা বোঝা। আমরা বিষণ্নতার লক্ষণগুলিতে যাওয়ার আগে, এটি উল্লেখ করা গুরুত্বপূর্ণ যে আপনি যদি আপনার আবেগের সাথে লড়াই করে থাকেন এবং মানিয়ে নিতে অক্ষম বোধ করেন - তবে এটি সমর্থন চাওয়ার মূল্য হতে পারে। আপনি সাহায্যের যোগ্য, আপনি আপনার সমস্যাগুলিকে যতই তুচ্ছ মনে করেন না কেন।
+
+একজন পেশাদারের সাথে কথা বলা, সে আপনার জিপি হোক বা একজন কাউন্সেলর, আপনার কী প্রয়োজন তা বুঝতে সাহায্য করতে পারে। এটি স্ব-সহায়ক টিপস এবং শ্বাস-প্রশ্বাসের ব্যায়াম থেকে শুরু করে সাইকোথেরাপি এবং/অথবা ওষুধ পর্যন্ত হতে পারে। প্রত্যেকেই আলাদা এবং তাদের বিভিন্ন স্তরের সমর্থন প্রয়োজন হবে।"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/p3"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp2"
+                    />
+
+                <TextView
+                    android:id="@+id/px3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="আপনার যদি বিষণ্নতা থাকে, তাহলে আপনার নিম্নলিখিত লক্ষণগুলির মধ্যে অন্তত পাঁচটি হওয়ার সম্ভাবনা রয়েছে।"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/p4"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp3"
+                    />
+
+                <TextView
+                    android:id="@+id/px4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="আপনি অনুভব করতে পারেন:\n\n
+
+মূল্যহীন\n
+যেমন জীবন বেঁচে থাকার যোগ্য নয়\n
+ক্রমাগত উদ্বিগ্ন, অশ্রুসিক্ত এবং উদ্বিগ্ন\n
+যেমন আপনি মনোযোগ দিতে পারবেন না\n
+সিদ্ধান্তহীন\n
+খিটখিটে এবং অন্যদের অসহিষ্ণু\n
+আপনি জীবন থেকে যথেষ্ট আনন্দ পাচ্ছেন না\n
+আপনার আত্মসম্মানের অভাব আছে\n
+আপনার অত্যধিক এবং অনুপযুক্ত অপরাধ আছে\n
+আপনার কোন অনুপ্রেরণা বা আগ্রহ নেই যা আপনি উপভোগ করতেন"
+
+                    />
+
+
+
+                <ImageView
+                    android:id="@+id/p5"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp4"
+                    />
+
+                <TextView
+                    android:id="@+id/px5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="কখনও কখনও কারণটি কী তা তাৎক্ষণিকভাবে স্পষ্ট হয়ে যায়, তবে অন্য সময় আপনি কেন এত খারাপ বোধ করেন তার কোনও সুস্পষ্ট কারণ নেই। এটি হতে পারে যে আপনি কিছু বা কাউকে হারিয়েছেন বা এটি হতাশা বা হতাশা থেকে উদ্ভূত হতে পারে। সাধারণত, আপনি কেন বিষণ্ণতায় ভোগেন তার একাধিক কারণ থাকতে পারে এবং এই কারণগুলি ব্যক্তিভেদে ভিন্ন হয়।"
+
+                    />
+
+
+
+                <ImageView
+                    android:id="@+id/p6"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp5"
+                    />
+
+                <TextView
+                    android:id="@+id/px6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="দুঃখজনক জীবনের ঘটনাগুলি আমাদের উপর প্রভাব ফেলতে পারে। বিবাহবিচ্ছেদ, পারিবারিক সমস্যা বা চাকরি হারানো সবই আমাদের জীবনে গুরুত্বপূর্ণ যা আমাদের মেজাজ পরিবর্তন করতে পারে।"
+
+                    />
+
+
+
+                <ImageView
+                    android:id="@+id/p7"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp6"
+                    />
+
+                <TextView
+                    android:id="@+id/px7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="আপনার কাছের কাউকে হারানোর ঝুঁকি বাড়তে পারে। এটি সর্বদা কেবল ক্ষতিই নয় যা বিষণ্নতার কারণ হয়, এটি যেভাবে আমরা এটি মোকাবেলা করি। আপনি যদি শোক প্রকাশ না করেন বা আপনার অনুভূতিগুলি সঠিকভাবে প্রকাশ না করেন তবে তারা বিষণ্নতা তৈরি করতে পারে এবং অবদান রাখতে পারে।"
+
+                    />
+
+
+
+                <ImageView
+                    android:id="@+id/p8"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp7"
+                    />
+
+                <TextView
+                    android:id="@+id/px8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="আপনার কাছের কাউকে হারানোর ঝুঁকি বাড়তে পারে। এটি সর্বদা কেবল ক্ষতিই নয় যা বিষণ্নতার কারণ হয়, এটি যেভাবে আমরা এটি মোকাবেলা করি। আপনি যদি শোক প্রকাশ না করেন বা আপনার অনুভূতিগুলি সঠিকভাবে প্রকাশ না করেন তবে তারা বিষণ্নতা তৈরি করতে পারে এবং অবদান রাখতে পারে।"
+
+                    />
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/p9"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp8"
+                    />
+                <TextView
+                    android:id="@+id/px9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="'হিমায়িত রাগ' একটি শব্দ যা হতাশার সাথে ঘনিষ্ঠভাবে সম্পর্কিত। আপনি হয়তো এমন কিছুর মধ্য দিয়ে গেছেন যার কারণে আপনি রাগান্বিত হয়েছিলেন, কিন্তু সেই সময়ে আপনি আপনার অনুভূতিগুলি সঠিকভাবে প্রকাশ করতে পারেননি। এই ধরনের রাগ চাপা হয়ে যায়; এটি তখন তৈরি হতে পারে এবং বিষণ্নতার কারণ হতে পারে।"
+
+                    />
+
+
+
+                <ImageView
+                    android:id="@+id/p10"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp9"
+                    />
+
+                <TextView
+                    android:id="@+id/px10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="আপনি একা, স্ট্রেসড, শারীরিকভাবে ক্লান্ত এবং/অথবা কথা বলার মতো কেউ নেই এমন অনুভূতি এই অবস্থার জন্য অবদান রাখতে পারে।"
+
+                    />
+
+
+
+                <ImageView
+                    android:id="@+id/p11"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp10"
+                    />
+
+                <TextView
+                    android:id="@+id/px11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="নিয়মিত ভারী মদ্যপান আপনাকে বিষণ্নতা বিকাশের জন্য আরও সংবেদনশীল করে তুলতে পারে।"
+
+                    />
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/p12"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp11" />
+
+                <TextView
+                    android:id="@+id/px12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="বিষণ্নতার বিভিন্ন 'প্রকার' রয়েছে, যার মধ্যে রয়েছে:\n\n
+
+হালকা বিষণ্নতা - যখন বিষণ্নতার লক্ষণগুলি দৈনন্দিন জীবনে সীমিত প্রভাব ফেলে। সাধারণত, মৃদু বিষণ্ণতায় আক্রান্ত ব্যক্তিরা ক্রমাগত কম মেজাজ এবং আত্মা অনুভব করবেন। তারা সাধারণত যে জিনিসগুলি উপভোগ করে তা করতে তাদের অনুপ্রাণিত করা কঠিন হতে পারে।\n\n
+
+প্রধান (ক্লিনিকাল) বিষণ্নতা - একটি আরও গুরুতর ফর্ম যা হাসপাতালে ভর্তি হতে পারে। লক্ষণগুলি আরও বিশিষ্ট হবে এবং দৈনন্দিন জীবনে হস্তক্ষেপ করবে। তারা খাদ্যাভাস, ঘুম এবং অন্যান্য দৈনন্দিন কার্যকলাপ প্রভাবিত করতে পারে। কিছু ভুক্তভোগী আত্মহত্যা অনুভব করতে পারে এবং সেই জীবন আর বেঁচে থাকার যোগ্য নয়।\n\n
+
+বাইপোলার ডিসঅর্ডার - ম্যানিক ডিপ্রেশনের একটি রূপ যা চরম উচ্চ এবং নিম্ন দ্বারা চিহ্নিত করা হয়। উদাহরণস্বরূপ, হাইপারঅ্যাক্টিভিটির একটি সময়কাল যেখানে ভুক্তভোগীরা উত্তেজিত হয় এবং অত্যধিক উচ্চাভিলাষী কাজের পরিকল্পনা করার পরে গুরুতর বিষণ্নতার সময়কাল হয়।\n\n
+
+সিজনাল অ্যাফেক্টিভ ডিসঅর্ডার (এসএডি) - একটি ফর্ম যা দিনের দৈর্ঘ্যের সাথে ঘনিষ্ঠভাবে সম্পর্কিত। এটি সাধারণত শরৎ এবং শীতের মাসগুলিতে ঘটে যখন দিনগুলি ছোট হয়। যখন দিনগুলি উজ্জ্বল এবং দীর্ঘতর হয় তখন লক্ষণগুলি উপশম হয়।"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/p13"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp12" />
+
+                <TextView
+                    android:id="@+id/px13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="আপনি যদি দিনের বেশির ভাগ সময়, প্রতিদিন, দুই সপ্তাহের বেশি সময় ধরে বিষণ্নতার লক্ষণগুলি অনুভব করেন, তাহলে আপনার জিপির সাহায্য নেওয়া উচিত। যদি আপনার অনুভূতিগুলি আপনার জীবনের অনেক অংশকে প্রভাবিত করতে শুরু করে তবে এটি একটি চিহ্ন যা আপনাকে পেশাদার সহায়তার প্রয়োজন হতে পারে।
+
+আপনার জীবনের যে অংশগুলিতে বিষণ্নতা নেতিবাচক প্রভাব ফেলতে পারে সেগুলির মধ্যে রয়েছে, তবে এতে সীমাবদ্ধ নয়:\n
+
+সম্পর্ক\n\n
+কাজ\n\n
+স্বার্থ\n\n
+সুখ এবং উপভোগের সামগ্রিক অনুভূতি"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/p14"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp13" />
+
+                <TextView
+                    android:id="@+id/px14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="বিষণ্নতা একটি চিকিত্সাযোগ্য অবস্থা, এমনকি তার সবচেয়ে গুরুতর আকারেও। চিকিত্সা বিকল্প একটি পরিসীমা প্রদান করা উচিত. প্রস্তাবিত দুটি সবচেয়ে সাধারণ ফর্ম হল কাউন্সেলিং এবং ঔষধ। এগুলি প্রায়শই সংমিশ্রণে ব্যবহৃত হয় - বিশেষত আরও গুরুতর ক্ষেত্রে।"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/p15"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp14" />
+
+                <TextView
+                    android:id="@+id/px15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="নিম্নোক্ত ধরনের কাউন্সেলিং এবং সাইকোথেরাপি বিষণ্নতার চিকিৎসায় কার্যকর প্রমাণিত হয়েছে:\n\n
+
+জ্ঞানীয় আচরণগত থেরাপি (CBT)\n\n
+
+ন্যাশনাল ইনস্টিটিউট ফর হেলথ অ্যান্ড কেয়ার এক্সিলেন্স (NICE) দ্বারা জারি করা নির্দেশিকা অনুসারে, জ্ঞানীয় আচরণগত থেরাপি হতাশার চিকিত্সার জন্য প্রস্তাবিত থেরাপিগুলির মধ্যে একটি। এই থেরাপিটি এই ভিত্তির উপর ভিত্তি করে যে আমরা যেভাবে আচরণ করি এবং চিন্তা করি তা আমাদের অনুভূতিকে প্রভাবিত করে। বিষণ্নতায় আক্রান্ত ব্যক্তিদের আত্ম-পরাজিত চিন্তাভাবনা থাকে যা নেতিবাচক আচরণের দিকে নিয়ে যেতে পারে। CBT-এর লক্ষ্য তাদের এই নেতিবাচক চিন্তাগুলোকে চিহ্নিত করা এবং মোকাবেলা করতে সাহায্য করা।\n\n
+
+বিষণ্নতার জন্য কাউন্সেলিং (CfD)\n\n
+
+CfD হল মনস্তাত্ত্বিক থেরাপির একটি মডেল যা NICE দ্বারা বিষণ্ণতার চিকিৎসার জন্য সুপারিশ করা হয়েছে এবং ইমপ্রুভিং অ্যাকসেস টু সাইকোলজিক্যাল থেরাপি প্রোগ্রাম (IAPT) এর মধ্যে ডেলিভারির জন্য অনুমোদিত। বিষণ্নতার জন্য কাউন্সেলিং হল সিবিটি ছাড়াও সুপারিশকৃত থেরাপিগুলির মধ্যে একটি।\n\n
+
+কাউন্সেলিং সত্যিই দুর্দান্ত ছিল, এবং এমনকি আমাকে এমন একজন ব্যক্তির সাথে যোগাযোগ করা হয়েছিল যিনি আমাকে কর্মক্ষেত্রে আমার অনুসন্ধানে সমর্থন করবেন এবং প্রয়োজনে আমাকে প্রতিনিধিত্ব করবেন। এই বিষয়ে পেশাদার সমর্থন থাকা আমার মন থেকে এমন ভার নিয়েছিল।\n\n
+
+- Aimee এর গল্প.\n\n
+
+মাইন্ডফুলনেস-ভিত্তিক জ্ঞানীয় থেরাপি (MBCT)\n\n
+
+এই ধরনের টকিং থেরাপি বিশেষভাবে যারা পুনরাবৃত্ত বিষণ্নতায় ভোগেন তাদের সাহায্য করার জন্য ডিজাইন করা হয়েছে। মাইন্ডফুলনেস-ভিত্তিক জ্ঞানীয় থেরাপি নেতিবাচক চিন্তাভাবনার ধরণ ভাঙতে সাহায্য করার জন্য জ্ঞানীয় থেরাপি এবং মননশীলতা কৌশলগুলির (শ্বাসের ব্যায়াম এবং ধ্যান) উপাদানগুলিকে একত্রিত করে।\n\n
+
+আন্তঃব্যক্তিক থেরাপি (IPT)\n\n
+
+আন্তঃব্যক্তিক থেরাপি আমাদের মানসিক স্বাস্থ্য কীভাবে আমাদের সম্পর্ককে প্রভাবিত করে এবং কীভাবে আমাদের সম্পর্কগুলি আমাদের প্রভাবিত করে তার উপর দৃষ্টি নিবদ্ধ করে। এর পিছনে চিন্তাভাবনা হল যে মানসিক লক্ষণগুলি, যেমন বিষণ্নতা, সাধারণত অন্যদের সাথে আমাদের যোগাযোগে অসুবিধার প্রতিক্রিয়া। এটি থেকে প্রাপ্ত উপসর্গগুলিও যোগাযোগের অবনতি ঘটাতে পারে, এইভাবে একটি চক্র সৃষ্টি করে। যাদের শনাক্তযোগ্য সমস্যা আছে তাদের সাথে আইপিটি সবচেয়ে ভালো কাজ করে।\n\n
+
+সাইকোডাইনামিক থেরাপি\n\n
+
+সাইকোডাইনামিক থেরাপির লক্ষ্য হল একজন ব্যক্তির অচেতন চিন্তা কীভাবে তাদের আচরণকে প্রভাবিত করে তা খুঁজে বের করা। এই ধরণের থেরাপি ব্যক্তিদের তাদের গভীর-মূল অনুভূতি এবং অভিজ্ঞতাগুলি বুঝতে এবং উন্মোচন করতে সহায়তা করতে পারে।\n\n
+
+গ্রুপ থেরাপি\n\n
+
+যদিও 'গ্রুপ থেরাপি' শব্দটি অনেক কথা বলা থেরাপিতে প্রয়োগ করা যেতে পারে, এটি মূলত তাদের সাথে ব্যবহৃত হয় যারা একটি গ্রুপ ডাইনামিকের মধ্যে সবচেয়ে ভালো কাজ করে। এই ধরণের থেরাপির প্রধান সুবিধাগুলির মধ্যে একটি হল একই ধরণের সমস্যার মধ্য দিয়ে যাওয়া সহকর্মীদের সমর্থন নেটওয়ার্ক। এটির লক্ষ্য আপনাকে আপনার অভিজ্ঞতা শেয়ার করতে এবং নিজেকে আরও ভালভাবে বোঝার জন্য কাজ করতে উত্সাহিত করা।\n\n
+
+আর্ট থেরাপি\n\n
+
+আর্ট থেরাপি ব্যক্তিদের একটি নতুন উপায়ে তাদের আবেগ অন্বেষণ করতে সাহায্য করার জন্য শৈল্পিক মাধ্যম ব্যবহার করে। এটি যোগাযোগের একটি ফর্ম হিসাবে শিল্পকে ব্যবহার করে - এটি বিশেষত তাদের জন্য ভাল যারা তাদের অনুভূতিগুলিকে মৌখিকভাবে প্রকাশ করা কঠিন বলে মনে করেন।"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/p16"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dp15" />
+
+                <TextView
+                    android:id="@+id/px16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="কাউন্সেলিং এর পাশাপাশি, মাঝারি থেকে গুরুতর বিষণ্নতায় ভোগা রোগীদের সাহায্য করার জন্য GPs দ্বারা ওষুধ নির্ধারিত হতে পারে। এন্টিডিপ্রেসেন্টগুলি সাধারণ হতাশার লক্ষণগুলি যেমন খারাপ ঘুম, কম মেজাজ এবং দুর্বল ঘনত্ব কমাতে সাহায্য করতে পারে। তারা ভুক্তভোগীদের আরও ভালভাবে কাজ করতে সাহায্য করতে পারে এবং এমনকি কঠিন পরিস্থিতি মোকাবেলা করার ক্ষমতা বাড়াতে পারে।
+
+এই ধরনের ঔষধ, যাইহোক, প্রত্যেকের জন্য কার্যকর নয় এবং শুধুমাত্র মূল কারণ মোকাবেলা করে না। এই কারণেই বিষণ্নতার জন্য কাউন্সেলিং মেডিক্যাল হস্তক্ষেপের সাথে মিলিয়ে সুপারিশ করা হয়।"
+
+                    />
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

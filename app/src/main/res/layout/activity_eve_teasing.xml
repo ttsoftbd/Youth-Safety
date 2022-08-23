@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48ad74"
+    tools:context=".Eve_TeasingActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="100"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ev1"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/yz1"
+                    />
+                <ImageView
+                    android:id="@+id/ev2"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ima1"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/evt1"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="যেকোনো ইঙ্গিতপূর্ণ মন্তব্য বা রসিকতা।
+গায়ে হাত দেয়া বা দেওয়ার চেষ্টা করা।
+ই-মেইল, এসএমএস, টেলিফোনে বিড়ম্বনা।
+পর্নোগ্রাফি বা যেকোনো ধরণের চিত্র, অশ্লীল ছবি, দেয়াল লিখনের মাধ্যমে বিরক্ত করা।
+অশালীন উক্তিসহ আপত্তিকর কোনো ধরণের কিছু করা, কাউকে ইঙ্গিতপূর্ণ ভাবে সুন্দরী বলা।
+কোনো নারীকে ভয়ভীতি প্রদর্শন বা কোনো চাপ প্রয়োগ করা।
+মিথ্যা আশ্বাস দিয়ে সর্ম্পক স্থাপন করা, যৌন সম্পর্ক স্থাপনের দাবি বা অনুরোধ করা প্রভৃতি।\n\n এগুলোর মধ্যে যেকোন একটি হলেই আপনি আবেদন করতে পারবেন। তার পূর্বে ইভটিজার এর নাম , ঠিকানা দরকার হলে তার বাবা ও মায়ের নাম জেনে নিবেন"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/ev3"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ima2"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/evt2"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="অনলাইনে ইভটিজিং এর স্বীকার হলে স্ক্রিনশট, স্ক্রিন ভিডিও এবং সকল প্রয়োজনীয় ডকুমেন্ট সংগ্রহ করে রাখবেন\n\nকিন্তু অফলাইনে হলে দরকার হলে মোবাইল এর অডিও রেকর্ডের অন করে রাখবেন । গোপনে ভিডিও করাও যেতে পারে । কখন ইভটিজিং করে , কোন যায়গায় করে তা আবেদপ্নের সময় উল্লেখ করবেন।"
+                    />
+
+                <ImageView
+                    android:id="@+id/ev4"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ima3"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/evt3"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="আপনার ব্যক্তিগত তথ্য আমরা কখনই কোন থার্ড পার্টির কাছে হস্তান্তর করব না । তাই আপনি নির্ভয়ে আপনার সকল অভিযোগ জানাতে পারেন।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/ev5"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ima4"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/evt4"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ঢাকা মেট্রোপলিটন পুলিশ অধ্যাদেশের ইভ টিজিং বা উত্ত্যক্ততা বিষয়ে বলা হয়েছে। এই অধ্যাদেশের ৭৬ ধারায় বলা হয়েছে, যদি কেউ কোনো রাস্তায় বা সাধারণের ব্যবহার্য স্থানে বা সেখান থেকে দৃষ্টিগোচরে স্বেচ্ছায় এবং অশালীনভাবে নিজ শরীর এমনভাবে প্রদর্শন করে, যা কোনো গৃহ বা দালানের ভেতর থেকে হোক বা না হোক, কোনো নারী দেখতে পায় বা স্বেচ্ছায় কোনো রাস্তায় বা সাধারণের ব্যবহার্য স্থানে কোনো নারীকে পীড়ন করে বা তার পথ রোধ করে বা কোনো রাস্তায় বা সাধারণের ব্যবহার্য স্থানে কোনো অশালীন ভাষা ব্যবহার করে, অশ্লীল আওয়াজ, অঙ্গভঙ্গি বা মন্তব্য করে কোনো নারীকে অপমান বা বিরক্ত করে, তবে সেই ব্যক্তি ১ বৎসর পর্যন্ত মেয়াদের কারাদণ্ডে অথবা ২ হাজার টাকা পর্যন্ত জরিমানা বা উভয় দণ্ডে দণ্ডিত হবেন।"
+                    />
+
+
+
+                <ImageView
+                    android:id="@+id/ev6"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ima6"
+                    />
+
+                <ImageView
+                    android:id="@+id/ev8"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/callbtn"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/evt5"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="৯৯৯ এ কল দিয়ে আপনার সমস্যা কথা জানান"
+                    />
+
+                <ImageView
+                    android:id="@+id/ev7"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ima5"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

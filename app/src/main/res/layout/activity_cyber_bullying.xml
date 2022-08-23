@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48ad74"
+    android:orientation="vertical"
+    tools:context=".Cyber_BullyingActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="100"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/ab1"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/yz1"
+                    />
+                <ImageView
+                    android:id="@+id/cb1"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/yz2"
+                    />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/cbt1"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="আবেদন এর পূর্বে আপনাকে যার বিরুদ্ধে অভিযোগ করবেন তার সঠিক তথ্য জেনে রাখবেন।তার নাম,প্রয়োজনে বাবা মার নাম , সঠিক ঠিকানা জানা থাকলে অপরাধী ধরা অনেক টা সহজ হয়"
+                    />
+                <ImageView
+                    android:id="@+id/cb2"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/yz3"
+                    />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/cbt2"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="সাইবার বুলিং বিভিন্ন ধরনের হতে পারে, বিশেষত সাইবার বুলিং এর শিকার হয়ে থাকে কিশোর-কিশোরী এবং নারীরা। যেমন বিভিন্ন ধরনের সোশ্যাল মিডিয়ায় বাজে ভাবে মেসেজ পাঠানো। আপত্তিকর ছবি বা ভিডিও পাঠানো। ফেসবুক বা সোশ্যাল মিডিয়ায় ছবি আপলোড করা হলে পরে সেগুলো নিয়ে বিভিন্ন ধরনের সফটওয়্যার এর মাধ্যমে অশ্লীল ছবিতে রুপান্তর করে হয়রানির শিকার করা। সামাজিক ভাবে হেয় প্রতিপন্ন করা।"
+                    />
+                <ImageView
+                    android:id="@+id/cb3"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/yz4"
+                    />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/cbt3"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" সাইবার বুলিং এর শিকার হলে আমাদের সর্বপ্রথম যেটি করতে হবে তা হল নিজেকে বোঝাতে হবে এখানে আপনার কোন দোষ নেই এবং মাথা ঠান্ডা রাখতে হবে। এবং মাথা ঠান্ডা রেখে পরবর্তী ধাপে অগ্রসর হতে হবে। প্রথমেই যে সকল ব্যক্তি এ ধরনের অপরাধে যুক্ত হতে পারে তাদের একটি তালিকা তৈরি করুন। এরপর সন্দেহের কারণ হিসেবে কিছু প্রমাণ সংগ্রহের চেষ্টা করুন। হতে পারে তা তাদের পিছনের কোন মেসেজ বা চ্যাটিং এর স্ক্রিনশট। বিগত সময়ে কোন প্রকার হুমকি প্রদান করে থাকলে সেগুলো খতিয়ে দেখতে পারেন।"
+                    />
+                <ImageView
+                    android:id="@+id/cb4"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/yz5"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/cbt4"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="সর্বশেষ ২০১৮ সালে ডিজিটাল নিরাপত্তা আইন প্রণীত হয়েছে। সাইবার নিরাপত্তা আইনের ১৪ ধারাতে উল্লেখ আছে, যদি কোনো ব্যক্তি ইচ্ছাকৃতভাবে অন্য কোনো ব্যক্তির অনুমতি ছাড়া তার ব্যক্তিগত (অন্তরঙ্গ) ছবি তোলে ও প্রকাশ করে তাহলে তিনি ১০ বছরের কারাদণ্ডে বা অনধিক ১০ লাখ টাকা অর্থদণ্ড বা উভয়দণ্ডে দণ্ডিত হবেন।"
+                    />
+
+                <ImageView
+                    android:id="@+id/cb5"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/yzamnidd"
+                    />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/cbt5"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="আপনার ব্যক্তিগত তথ্য আমরা কখনই কোন থার্ড পার্টির কাছে হস্তান্তর করব না । তাই আপনি নির্ভয়ে আপনার সকল অভিযোগ জানাতে পারেন।"
+                    />
+
+                <ImageView
+                    android:id="@+id/CyberCall"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/callbtn"
+                    />
+
+                <ImageView
+                    android:id="@+id/cb6"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/yz7"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

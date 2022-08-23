@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/Cyber_Bullying"
+    android:layout_height="match_parent"
+    android:background="#48ad74"
+    tools:context=".ui.Cyber_Bullying_Fragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="100"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/e1"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eve1"
+                    />
+
+                <TextView
+                    android:id="@+id/te1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="'ইভটিজিং' একটি ইংরেজি শব্দ (Eve teasing)। ইভটিজিংয়ের সহজ-সরল বাংলা হচ্ছে মেয়েদের উত্ত্যক্ত করা বা বিব্রত করা। ব্যাপক ভাবে বলতে গেলে যৌন হয়রানি ও নিপীড়নমূলক উক্তি, অশালীন অঙ্গ ভঙ্গি বা ভাষা ব্যবহার, যৌন আবেদন মূলক মন্তব্য, মােবাইল ফোনে বিরক্ত করা, শিস দেওয়া, পথ রােধ করে দাঁড়ানাে, কাগজে আপত্তিকর কথা লিখে গায়ে ছুড়ে মারা, প্রস্তাবে সাড়া না দিলে হুমকি দেওয়া, বিভিন্ন ভাবে প্রেম নিবেদন করা ইত্যাদি। বর্তমান সময়ে ইভটিজিং ভয়াবহ সংক্রামক সামাজিক ব্যাধি হিসেবে আমাদের মানবিক চেতনাবােধকে অক্টোপাসের মতাে আঁকড়ে ধরেছে।"
+                    />
+
+                <ImageView
+                    android:id="@+id/e2"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eve2"
+                    />
+                <TextView
+                    android:id="@+id/te2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="ইভটিজিংয়ের ব্যাপকতা ও ভয়াবহতা দিন দিন বাড়ছে। ইভটিজিংয়ের কারণগুলাে চিহ্নিত করে সে অনুযায়ী সমাজ, রাষ্ট্র, পরিবার তথা সবাই ঐক্যবদ্ধ হয়ে কাজ করলে এর সমাধান বের করা সহজ হবে। ইভটিজিংয়ের কারণকে দুভাবে ব্যাখ্যা
+করা যায়, একটি মনােবিশ্লেষণ মূলক (Psychoanalytical). কারণ এবং অন্যটি আর্থসামাজিক (Socio-economic) কারণ।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e3"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eve3"
+                    />
+                <TextView
+                    android:id="@+id/te3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="মনােবিশ্লেষণমূলক ব্যাখ্যায় ফ্রয়েডীয় তাত্ত্বিক দৃষ্টি ভঙ্গিতে মানুষের ব্যক্তিত্ব বিকাশের সর্বশেষ স্তর অর্থাৎ যৌনস্তর, যা সাধারণত বয়ােসন্ধি থেকে শুরু হয়। সেই সময় ব্যক্তি বিপরীত লিঙ্গের প্রতি তার সুখনীতিগুলাে (Pleasure principles) তীব্র ভাবে বােধ করে। কিন্তু অধিসত্তা (Super ego) বা সামাজিক বাধার কারণে এ সুখনীতি গুলাে বিকৃতভাবে সমাজে দেখা দেয়। যার একটি রূপ হলাে ইভটিজিং।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e4"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eve4"
+                    />
+                <TextView
+                    android:id="@+id/te4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="১। সামাজিক ও নৈতিক মূল্যবােধের অভাব : বর্তমানে সমাজে নৈতিক শিক্ষা ও সামাজিক মূল্যবােধ নেই বললেই চলে। ফলে নারীকে বােন বা মায়ের আসনে না বসিয়ে ভােগের সামগ্রী মনে করা হচ্ছে। এর ফলে ইভটিজিং মাত্রাতিরিক্ত ভাবে বেড়ে যাচ্ছে।\n
+
+২। সচেতনতার অভাব : বেশির ভাগ মানুষ জানে না মেয়েদের উত্ত্যক্ত করা, তদের প্রতি অশালীন মন্তব্য করা, তাদের প্রতি অশ্লীল অঙ্গভঙ্গি করা যেমন নিন্দনীয় তেমনি দণ্ডনীয় অপরাধ। আইন এবং সামাজিক ব্যবস্থা সম্পর্কে অজ্ঞতা এজন্য দায়ী।\n
+
+৩। দৃষ্টিভঙ্গির সংকীর্ণতা : আমাদের সমাজে নারীকে দুর্বল, পরনির্ভরশীল ও ভােগের সামগ্রী মনে করা হয়। এজন্য মেয়েরা নিজেদেরকে হীন মনে করছে এবং তারা মুখ বুজে সবকিছু সহ্য করে যাচ্ছে। আর এজন্য ইভটিজিংয়ের মাত্রাও বেড়ে যাচ্ছে।\n
+
+৪। মােবাইল ফোনের অপব্যবহার : মােবাইল ফোনের অপব্যবহারও ইভটিজিংয়ের অন্যতম কারণ। প্রায় সব অপ্রাপ্ত বয়স্ক ছেলেদের কাছে মােবাইল ফোন দেখা যায়। তাছাড়া মােবাইল কোম্পানিগুলাে বিভিন্ন প্যাকেজে কম পয়সায় বিনামূল্যে কথা বলার সুযােগ করে দিচ্ছে। ফলে ফোন কিংবা ক্ষুদেবার্তার মাধ্যমে মেয়েদের কে উত্ত্যক্ত করা হচ্ছে।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e5"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eve5"
+                    />
+                <TextView
+                    android:id="@+id/te5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="ইভটিজিং ঘূর্ণিঝড়ের মতাে আমাদের সমাজদেহকে তছনছ করে দিচ্ছে। লণ্ডভণ্ড করে দিচ্ছে এক একটি সাজানাে-গােছানাে পরিবার। ইভটিজিংয়ের ভয়ে অনেক পরিবারের মেয়েদের লেখা পড়া বন্ধ হয়ে যাচ্ছে। ইভটিজিংয়ের শিকার অনেক মেয়ে মানসিক দুর্বলতায় ভুগে আত্মহননের পথ বেছে নিয়েছে। ঢাকার সিমিও ফাহিমা, নাটোরের মহিমা, গাইবান্ধার তৃষা, শ্রীনগরের সিনথিয়া ও শেরপুরের রূপালি সহ অনেকে আত্মহত্যা করে পরিবার, সমাজ ও রাষ্ট্রের প্রতি প্রশ্ন রেখে গেছে। নাটোরের কলেজ শিক্ষক মিজানুর রহমানকে প্রাণ দিতে হয়েছে। তার বুকের রক্তের দাগ না শুকাইতেই ফরিদপুরের মধুখালী উপজেলায় মেয়েকে উত্ত্যক্ত করার প্রতিবাদ করা চাপারাণী ভৌমিককে মােটর সাইকেল দিয়ে চাপা দিয়ে হত্যা করে ঘাতক দেবশীষ । কুড়িগ্রামে ষষ্ঠ শ্রেণিতে পড়ুয়া নাতনিকে উত্ত্যক্ত করার প্রতিবাদ করায় বখাটের হাতে প্রাণ দিতে হয়েছে নানা আবদুল সােবাহানকে। সাম্প্রতিক সময়ে পত্রিকা খুললেই ইভটিজিংয়ের শিকার হওয়ার ভয়াবহ দৃশ্যগুলাে আমাদের চোখে পড়ে।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e6"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eve6"
+                    />
+
+                <TextView
+                    android:id="@+id/te6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="ইভটিজিংয়ের কারণে নারী তার শিক্ষার অধিকার থেকে বঞ্চিত হচ্ছে। অশিক্ষিত বা অল্প শিক্ষিত থাকার কারণে নারী স্বাবলম্বী হওয়ার সুযােগ হারাচ্ছে। শারীরিক ও মানসিক ভাবে প্রস্তুত হওয়ার আগেই বিয়ে করে নিতে হচ্ছে সংসারের দায়িত্ব। আমাদের সংবিধানের ২৭ নং অনুচ্ছেদে বলা হয়েছে যে, ‘আইনের দৃষ্টিতে সবাই সমান।' কিন্তু ইভটিজিং নামক এই সামাজিক ব্যধিটি নারীর সাংবিধানিক অধিকার টুকুও কেড়ে নিচ্ছে। যা নারীর ক্ষমতায়নে অন্তরায় হিসেবে কাজ করে। কবি কাজী নজরুল ইসলাম তার 'নারী' কবিতায় বলেছেন-
+‘বিশ্বে যা কিছু মহান সৃষ্টি চির কল্যাণকর, অর্ধেক তার করিয়াছে নারী, অর্ধেক তার নর।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e7"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eve7"
+                    />
+
+                <TextView
+                    android:id="@+id/te7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="পুলিশসূত্রে জানা যায় যে, অক্টোবর ২০১০ পর্যন্ত এক বছরে ইভটিজিং এর ঘটনায় জিডি হয়েছে ৪০৭টি, মামলা হয়েছে ১৭২টি, ২৬৯ জনের বিরুদ্ধে মামলা করা হয়েছে। গ্রেফতার করা হয়েছে ৫২০ জনকে। ডিএমপি সূত্রে জানা যায়-
+এপ্রিল থেকে অক্টোবর পর্যন্ত মেয়েদের উত্ত্যক্ত করার দায়ে ২৫টি মামলা হয়। ১০২৭ জনকে গ্রেফতার করা হয় এবং ৮৩৪ জন বখাটের বিরুদ্ধে অভিযােগ আনা হয়।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e8"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eve8"
+                    />
+
+                <TextView
+                    android:id="@+id/te8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="কঠোর আইন প্রণয়ন : ইভটিজিং প্রতিরােধে কঠোর আইন প্রণয়ন করা প্রয়ােজন। অপরাধ করেও কেউ যদি ছাড়া পেয়ে যায় তাহলে আরেকজন এমন অপরাধ করতে ভয় পাবে না। তাই বখাটে তরুণ বা যুবকদের ইভটিজিংয়ের জন্য শাস্তি নিশ্চিত করতে হবে ।\n\n\n
+
+আইনি পদক্ষেপের বাত্যায়ন : নারী ও শিক্ষা নির্যাতন দমন আইন ২০০০ (২০০৩ সালে সংশােধিত) এবং পেনাল কোড-এ এ ধরনের অপরাধের স্পষ্ট ইঙ্গিত রয়েছে। নারী ও শিশু নির্যাতন দমন আইন ২০০০ (২০০৩ সালে সংশােধিত)-এর ১০ ধারা অনুযায়ী এ ধরনের অপরাধে অপরাধী অনধিক দশ বছর কিন্তু অন্যূন তিন বছর সশ্রম কারাদণ্ড এবং অর্থদণ্ডেও দণ্ডনীয় হবে। সম্প্রতি সরকার পেনাল কোডের ৫০৯ ধারার অপরাধে বিচার করার দায়িত্ব নির্বাহী ম্যাজিস্ট্রেট কর্তৃক পরিচালিত ভ্রাম্যমাণ আদালতের ওপর ন্যস্ত করেছে, যা ৯ নভেম্বর ২০১০ থেকে কার্যকর হয় । ম্যাজিস্ট্রেট এ ধারা প্রয়ােগ করে অপরাধীকে ঘটনাস্থলে বিচার করে সর্বোচ্চ এক বছরের কারাদণ্ড বা অর্থদণ্ড কিংবা উভয় দণ্ডে দণ্ডিত করতে পারবেন।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e9"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eve9"
+                    />
+
+                <TextView
+                    android:id="@+id/te9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="সঠিক শিক্ষা, সংস্কৃতি, সংস্কৃতিচর্চা আর রাজনৈতিক মূল্যবােধই পারে ইভটিজিংয়ের মতাে সামাজিক অপরাধকে নিয়ন্ত্রণ করতে। পাঠ্যপুস্তকে ইভটিজিংকে অন্তর্ভুক্ত করে এ সম্পর্কে ছাত্র ছাত্রীদের সচেতন করতে হবে।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e10"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eve10"
+                    />
+
+                <TextView
+                    android:id="@+id/te10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="সাধারণত নির্যাতনের শিকার মেয়েটি সম্পর্কে যত তথ্য দেওয়া হয় সে তুলনায় নির্যাতনকারী সম্পর্কে তেমন কোন তথ্য দেওয়া হয় না। মিডিয়ার উচিত ইভটিজিংয়ের ঘটনা প্রকাশ করার সময় অপরাধীদের সম্পর্কে আরাে বেশি তথ্য প্রদান করা। ক্ষতিকারক দিকগুলাে তুলে ধরে মিডিয়া ইভটিজিং রােধে কার্যকর ভূমিকা রাখতে পারে।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e11"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eve11"
+                    />
+
+                <TextView
+                    android:id="@+id/te11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="সাধারণত নির্যাতনের শিকার মেয়েটি সম্পর্কে যত তথ্য দেওয়া হয় সে তুলনায় নির্যাতনকারী সম্পর্কে তেমন কোন তথ্য দেওয়া হয় না। মিডিয়ার উচিত ইভটিজিংয়ের ঘটনা প্রকাশ করার সময় অপরাধীদের সম্পর্কে আরাে বেশি তথ্য প্রদান করা। ক্ষতিকারক দিকগুলাে তুলে ধরে মিডিয়া ইভটিজিং রােধে কার্যকর ভূমিকা রাখতে পারে।"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/e12"
+                    android:layout_width="match_parent"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eve12"
+                    />
+
+                <TextView
+                    android:id="@+id/te12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="ছেলেরা যাতে মনে করতে পারে, মেয়েরা তাদের সহপাঠী, বন্ধু কিংবা বােন। ছেলেরা মেয়েদের দুর্বল মনে করে, মেয়েদের দেখার যে দৃষ্টিভঙ্গি তা ভিন্ন মনে করে। সুতরাং এ দৃষ্টিভঙ্গি পরিবর্তনের মাধ্যমে এ সমস্যা সমাধান করা সম্ভব। সর্বোপরি ইভটিজিং প্রতিরােধে নৈতিক শিক্ষার প্রচলন, মাদক দ্রব্য নিয়ন্ত্রণ, সামাজিক নিরাপত্তা বৃদ্ধি, ধর্মীয় অনুশাসন, কাউন্সেলিং-এর ব্যবস্থা করা প্রভৃতি পদক্ষেপ গ্রহণ করতে হবে।"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
